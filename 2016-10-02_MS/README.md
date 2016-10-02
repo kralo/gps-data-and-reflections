@@ -16,7 +16,7 @@ Data collection takes place on the inner ring, outer ring, on a cabinet just bef
 Live DGPS correction data is retrieved from the [SAPOS HEPS System](http://www.sapos.de/dienste-im-ueberblick.html) ("base"-logs) with a LTE stick via NTRIP.
 
 ###Post-Processing
-The live-captured data showed some flurks, especially near the buildings. Post-Processing was done converting the .ubx files to RINEX observations with rtkconv, then creating the solutions in "kinematic" mode.
+The live-captured data showed some flurks, especially near the buildings. Post-Processing was done converting the .ubx files to RINEX observations with rtkconv, then creating the solutions in "kinematic" mode with rtkpost.
 
 After converting the .pos files to .gpx with pos2kml and the -gpx option, a first view shows clearly the two paths that were walked along.
 
