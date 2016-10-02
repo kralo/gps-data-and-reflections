@@ -1,0 +1,9 @@
+     2.10           H: GEO NAV MSG DATA                     RINEX VERSION / TYPE
+RTKCONV-QT 2.4.3 b15                    20161002 105942 UTC PGM / RUN BY / DATE 
+log: /home/max/rtklib_logs/rover_201610020835_bordstein.ub  COMMENT             
+format: u-blox                                              COMMENT             
+                                                            END OF HEADER       
+20 16 10  2  8 36 16.0  .000000000000E+00  .000000000000E+00  .309910000000E+05
+     .406367200000E+05  .000000000000E+00  .000000000000E+00  .100000000000E+01
+    -.112459160000E+05  .000000000000E+00  .000000000000E+00  .819200000000E+04
+     .000000000000E+00  .000000000000E+00  .000000000000E+00  .000000000000E+00
