@@ -1,7 +1,7 @@
 #Estimating GEO-reference accuracy of satellite imagery
 
 ##Problem
-Newer imaging satellites like the WorldView-4 claim a Geolocation Accuracy of ["<4 m CE90"](https://dg-cms-uploads-production.s3.amazonaws.com/uploads/document/file/196/DG_WorldView4_DS_11-15_Web.pdf) without ground control, but what accuracy do they reach in practice? (More [details](https://calval.cr.usgs.gov/JACIE_files/JACIE11/Presentations/WedPM/115_Bresnahan_JACIE_11.005.pdf) on CE90).
+Newer imaging satellites like the WorldView-4 claim a Geolocation Accuracy of ["\<4 m CE90"](https://dg-cms-uploads-production.s3.amazonaws.com/uploads/document/file/196/DG_WorldView4_DS_11-15_Web.pdf) without ground control, but what accuracy do they reach in practice? (More [details](https://calval.cr.usgs.gov/JACIE_files/JACIE11/Presentations/WedPM/115_Bresnahan_JACIE_11.005.pdf) on CE90).
 
 These are some notes of exploring the accuracy of current commercial offerings on a [roundabout](http://www.openstreetmap.org/?mlat=51.97677&mlon=7.59517#map=19/51.97677/7.59517) that is quite well visible from space because of the high-contrast cycleways (red).
 
@@ -20,7 +20,7 @@ The live-captured data showed some flurks, especially near the buildings. Post-P
 
 After converting the .pos files to .gpx with pos2kml and the -gpx option, a first view shows clearly the two paths that were walked along.
 
-![Firstlook](doc/firstview.png  "First look")
+![Firstlook](doc/firstview_path.png  "First look")
 
 ##Plotting on Satelite Imagery
 Uploading the GPX tracks to a service that overlays it with Google Maps yields quite impressive results. However, it is clearly visible that Google's Street Data is ~4m wrong at the roundabout.
