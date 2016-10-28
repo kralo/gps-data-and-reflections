@@ -34,3 +34,6 @@ Furthermore a DOP 20 Picture was hand-aligned as background. Differences between
 
 #Conclusion
 This sample of Orthophoto and Satellite Images' Geo-References are accurate to within some centimeters, at mos decimeters. That is roughly as accurate as one can get with a ~150€ GPS receiver with commercial correction data.
+
+##Possible Improvements
+U-Blox do mention in a [whitepaper](https://www.u-blox.com/sites/default/files/AntennasForRTK_WhitePaper_\(UBX-16010559\).pdf) that mutlipath effects (maybe from the few buildings still around?) could be eliminated with a better set-up of antenna including a ground plane.
